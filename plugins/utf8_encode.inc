@@ -12,7 +12,9 @@ $plugin = array(
   'multi' => 'loop',
   'category' => 'Other',
 );
-
+/**
+ * Add our plugin to the plugins form for feed tamper
+ */
 function feeds_tamper_utf8_encode_form($importer, $element_key, $settings) {
   $form = array();
   $form['html'] = array(
@@ -21,6 +23,9 @@ function feeds_tamper_utf8_encode_form($importer, $element_key, $settings) {
   return $form;
 }
 
+/**
+ * encode the field and return the encoded value
+ */
 function feeds_tamper_utf8_encode_callback($result, $item_key, $element_key, &$field, $settings, $source) {
   $field = utf8_encode($field);
 }
