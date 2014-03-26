@@ -1,7 +1,6 @@
 FEEDS TAMPER UFT-8 ENCODE
 =========================
-Feeds Tamper UTF-8 Encode provides a simple plugin to encode data in UTF-8 before it gets saved
-
+Provides a simple plugin to encode data in UTF-8 before it gets saved.
 
 Dependencies
 Feeds
