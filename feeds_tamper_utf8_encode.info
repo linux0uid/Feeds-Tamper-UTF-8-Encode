@@ -3,3 +3,4 @@ description = Provides a UTF-8 encoding plugin for feeds tamper
 package = Feeds
 dependencies[] = feeds
 dependencies[] = feeds_tamper
+core = 7.x
